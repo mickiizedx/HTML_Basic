@@ -1,0 +1,64 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Practice 03</title>
+</head>
+<body>
+    <form action="process.php">
+        <h3>Please fill the information</h3>
+        <div>
+            <label for="name">First name:</label>
+            <input type="text" id="name" name="name" placeholder="Please enter your first name">
+        </div>
+
+        <div>
+            <label for="Last name">Last name:</label>
+            <input type="text" id="name" name="name" placeholder="Please enter your last name">
+        </div>
+
+        <div>
+            <label for="email">Email:</label>
+            <input type="email" id="email" name="email" placeholder="Please enter your e-mail">
+        </div>
+        <div>
+            <label for="age">Age:</label>
+            <input type="number" name="age" id="age" placeholder="Enter your age">
+        </div>
+        <hr>
+
+        <div>
+            <label for="DOB">Date of Birth</label>
+            <input type="date" name="birthdate" id="dob">
+        </div>
+
+        <br>
+        
+        <div>
+            <label for="level">Level</label>
+            <input type="radio" name='level' value="Fundamental" id="level">Fundamental
+            <input type="radio" name='level' value="Basic" id="level">Basic
+            <input type="radio" name='level' value="Intermediate" id="level">Intermediate
+        </div>
+            <br>
+            <div>
+                <label for="Background">My background is  </label>
+                <input type="checkbox" name="Background" value="Software Engineering" id="background">Software Engineering
+                <input type="checkbox" name="Background" value="Digital Marketing" id="background">Digital Marketing
+                <input type="checkbox" name="Background" value="Cyber Security" id="background">Cyber Security
+            </div>
+            <br>
+            
+            <!-- Submit Button -->
+            <div>
+                <input type="submit" value="submit">
+                <br>
+                <!-- Button tag -->
+                <button type="submit">Submit</button>
+            </div>
+      
+    </form>
+</body>
+</html>

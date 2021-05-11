@@ -1,0 +1,51 @@
+Don't forget to change language mode >> Hover mosue to find "Select Language Mode"
+
+Start >>> type
+! + tab
+
+
+Comment  >>> type
+<!-- -->
+
+The HTML <h1>–<h6> elements 
+represent six levels of section headings. <h1> is the highest section level and <h6> is the lowest.
+
+<p> : paragraph
+
+<p><strong> : Bold text
+
+<em> : ittalic
+
+<br> self closing tag
+
+<html></html> main html tag
+
+<head></head>   <body></body>  ----> Direct chrildren of tag
+
+
+HTML element reference
+https://developer.mozilla.org/en-US/docs/Web/HTML/Element
+
+
+Thai language explaination 
+https://www.rainmaker.in.th/5-basic-html-tag-for-editors/
+
+To move paragraph
+highlight paragraph that you want + option + up/down arrow
+
+copy
+Shift + option + arrow down
+
+
+upsplash source
+https://source.unsplash.com
+
+
+Table
+<th> = heading
+<tr> = table row
+<tbody> = table body
+<td> = column (table data)
+
+
+div = stand for division : it's help to seperate markups 
